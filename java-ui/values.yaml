@@ -1,0 +1,15 @@
+deployment:
+   name: java-ui
+   cport: 80
+   replicas: 1
+   image.tag: latest 
+
+service:
+  port: 80
+
+
+
+
+
+  
+
