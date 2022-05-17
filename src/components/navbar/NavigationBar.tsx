@@ -1,8 +1,7 @@
 
 export const NavigationBar = () => {
   return (
-    <div style={{textAlign: "left",
-            marginRight: "700px"}}>
+    <div className="navbar-center">
         What Colour Is This?
     </div>
   );

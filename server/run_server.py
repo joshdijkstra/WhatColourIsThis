@@ -13,10 +13,6 @@ def predict_colour():
     print(colour_name)
     return {'colour_name' : colour_name,
             'colour_hex' : colour_hex}
-    
-@app.route('/time')
-def get_current_time():
-    return {'time': time.time()}
 
 if __name__ == '__main__':
     app.run()

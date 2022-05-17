@@ -41,8 +41,6 @@ export const ColourPicker = () => {
         <div
           style={{
             backgroundColor: currentHex,
-            paddingLeft: "720px",
-            paddingRight: "720px",
             paddingTop: "50px",
             paddingBottom: "350px",
           }}
@@ -50,14 +48,7 @@ export const ColourPicker = () => {
           {currentColour == null ? (
             <></>
           ) : (
-            <div
-              style={{
-                background: "white",
-                border: "2px solid black",
-                margin: "40px",
-                borderRadius: "9px",
-              }}
-            >
+            <div className="boxy">
               <p className="text-box">{currentColour}</p>
             </div>
           )}

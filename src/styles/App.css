@@ -62,3 +62,17 @@ body {
   margin: 20px;
   text-align: center;
  }
+.boxy {
+  background: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: left;
+  width: 300px;
+  border-radius: 9px;
+}
+
+.navbar-center{
+  margin: 0 auto;
+  text-align: left;
+  width: 425px;
+}

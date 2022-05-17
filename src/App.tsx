@@ -1,6 +1,6 @@
-import {ColourPicker} from "./components/ColourPicker"
+import { ColourPicker } from "./components/ColourPicker";
 import { Header } from "./components/navbar/Header";
-import "./styles/App.css"
+import "./styles/App.css";
 
 export const App = () => {
   return (
@@ -11,4 +11,4 @@ export const App = () => {
       </header>
     </div>
   );
-}
+};
